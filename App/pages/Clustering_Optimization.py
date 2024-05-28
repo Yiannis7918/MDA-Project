@@ -17,3 +17,4 @@ dash.register_page(__name__)
 layout = html.Div([
     html.H1('Intervention Duration vs Time of Day')
 ])
+

@@ -14,9 +14,9 @@ from dash.dependencies import Input, Output
 
 ################################# Map 
 
-area_provinces = gpd.read_file("C:\KU Leuven\Modern Data Analytics - MDA\MDA Project\MDA\Created GeoJSON Files\AREA_PROVINCES_NEW.geojson") 
+area_provinces = gpd.read_file("C:\KU Leuven\Modern Data Analytics - MDA\MDA Project\MDA\Visualization\Created GeoJSON Files\AREA_PROVINCES_NEW.geojson") 
 
-interventions_risk = pd.read_csv(r"C:\KU Leuven\Modern Data Analytics - MDA\MDA Project\MDA\Created CSV Files\Interventions_risky_probability.csv", index_col=False)
+interventions_risk = pd.read_csv(r"C:\KU Leuven\Modern Data Analytics - MDA\MDA Project\MDA\Modelling\Interventions_risky_probability.csv", index_col=False)
 
 percentile_75 = interventions_risk['Intervention duration'].quantile(0.75)
 

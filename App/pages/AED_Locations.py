@@ -15,8 +15,8 @@ import plotly.graph_objects as go
 import folium
 from dash.dependencies import Input, Output
 
-aed_within_provinces = gpd.read_file("C:\KU Leuven\Modern Data Analytics - MDA\MDA Project\MDA\Created GeoJSON Files\AED_WITHIN_PROVINCES.geojson")
-aed_and_popul_density_within_provinces= gpd.read_file("C:\KU Leuven\Modern Data Analytics - MDA\MDA Project\MDA\Created GeoJSON Files\AED_DENS_POPUL_WITHIN_PROVINCES.geojson")
+aed_within_provinces = gpd.read_file("C:\KU Leuven\Modern Data Analytics - MDA\MDA Project\MDA\Visualization\Created GeoJSON Files\AED_WITHIN_PROVINCES.geojson")
+aed_and_popul_density_within_provinces= gpd.read_file("C:\KU Leuven\Modern Data Analytics - MDA\MDA Project\MDA\Visualization\Created GeoJSON Files\AED_DENS_POPUL_WITHIN_PROVINCES.geojson")
 
 aed_within_provinces["cap_address"] = aed_within_provinces["address"].apply(lambda x: x.title())
 # aed_within_provinces["cap_address"] = aed_within_provinces["cap_address"] + str(aed_within_provinces["number"])
@@ -89,7 +89,7 @@ layout = html.Div([
         html.H2('AED Locations Across Provinces'),
         dcc.Graph(figure=bel_fig, style={'width': '1400px', 'height':'400px','border':'1px solid black'}),
         html.H2("AED Number per Squared Km"),
-        html.Iframe(srcDoc=open(r'C:\KU Leuven\Modern Data Analytics - MDA\MDA Project\MDA\AED Cholorpleth Plots (Folium) - HTML\cholorpleth_provinces.html', 'r').read(), 
+        html.Iframe(srcDoc=open(r'C:\KU Leuven\Modern Data Analytics - MDA\MDA Project\MDA\Visualization\AED Cholorpleth Plots (Folium) - HTML\cholorpleth_provinces.html', 'r').read(), 
                     style={'width': '1200px', 'height':'400px'})
     ],style={'text-align':'center', 'font-size':22,'align-items': 'center','flex-direction': 'column','display': 'flex'}),
   html.Br(),

@@ -12,7 +12,7 @@ from dash.dependencies import Input, Output
 import dash_table
 from dash_table import DataTable, FormatTemplate
 
-area_provinces = gpd.read_file("C:\KU Leuven\Modern Data Analytics - MDA\MDA Project\MDA\Created GeoJSON Files\AREA_PROVINCES_NEW.geojson") 
+area_provinces = gpd.read_file("C:\KU Leuven\Modern Data Analytics - MDA\MDA Project\MDA\Visualization\Created GeoJSON Files\AREA_PROVINCES_NEW.geojson") 
 
 aed_per_municipality_ant = pd.read_csv(r"C:\KU Leuven\Modern Data Analytics - MDA\MDA Project BackUp\AED_per_municipality_antwerpen.csv", index_col=False)
 aed_per_municipality_brx = pd.read_csv(r"C:\KU Leuven\Modern Data Analytics - MDA\MDA Project BackUp\AED_per_municipality_bruxelles-brussel.csv", index_col=False)
