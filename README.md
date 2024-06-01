@@ -29,15 +29,16 @@ git clone https://github.com/camilleecu/MDA.git
 
 ### Try our app? 
 ```
-Please click the link: [https://mda-c5992f1a540f.herokuapp.com/](https://mda-c5992f1a540f.herokuapp.com/)  
+Please copy the link: https://mda-c5992f1a540f.herokuapp.com/
+
 (Chrome Recommended)
 
 ```
 
 ### Run the app locally?
 ```
-For Windows Users: Download our App folder, then run the app.py document <br>
-For Mac OS Users/Linux: [https://github.com/lynweih/MDA_app/](https://github.com/lynweih/MDA_app/)
+For Windows Users: Download our App folder, then run the app.py document.
+For Mac OS Users/Linux: https://github.com/lynweih/MDA_app/
 ```
 
 
