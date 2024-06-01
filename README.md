@@ -1,5 +1,11 @@
 # AED (Automated External Defibrillator): Aid Ends Death
 
+## Group Members
+- Camille Cu
+- Linwei He
+- Wendy Dewit
+- Yiannis Dikaioulias
+
 ## Introduction
 
 This is the project for the Modern Data Analysis in KU Leuven. Our group is dedicated to exploring the intricate relationship between the placement of AEDs and the occurrence of emergency incidents,to enhance public health and safety.
@@ -219,11 +225,11 @@ This is the project for the Modern Data Analysis in KU Leuven. Our group is dedi
     └── intvn_preprocess.ipynb
 
 
-## Installation:
+## Installation
 ### Set up the Project?
 Clone the project repository: 
 ```
-git clone [text](https://github.com/camilleecu/MDA.git)
+git clone https://github.com/camilleecu/MDA.git
 ```
 
 ### Try our app? 
