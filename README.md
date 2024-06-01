@@ -1,8 +1,10 @@
 # AED (Automated External Defibrillator): Aid Ends Death
 
+## Introduction
+
 This is the project for the Modern Data Analysis in KU Leuven. Our group is dedicated to exploring the intricate relationship between the placement of AEDs and the occurrence of emergency incidents,to enhance public health and safety.
 
-# Table of Contents
+## Table of Contents
 ├── App
 │   ├── App Datasets
 │   │   ├── AED_DENS_POPUL_WITHIN_PROVINCES.geojson
@@ -50,6 +52,22 @@ This is the project for the Modern Data Analysis in KU Leuven. Our group is dedi
 │   │   ├── Page_5.py
 │   │   ├── Page_6.py
 │   │   ├── Page_7.py
+│   │   └── __pycache__
+│   │       ├── AED_Locations.cpython-311.pyc
+│   │       ├── Cardiac_Arrests_to_AED.cpython-311.pyc
+│   │       ├── Closest_AED_Ambulance.cpython-311.pyc
+│   │       ├── Clustering.cpython-311.pyc
+│   │       ├── Clustering_Optimization.cpython-311.pyc
+│   │       ├── Page_1.cpython-311.pyc
+│   │       ├── Page_2.cpython-311.pyc
+│   │       ├── Page_3.cpython-311.pyc
+│   │       ├── Page_4.cpython-311.pyc
+│   │       ├── Page_5.cpython-311.pyc
+│   │       ├── Page_6.cpython-311.pyc
+│   │       ├── Page_7.cpython-311.pyc
+│   │       ├── Risk_Probability.cpython-311.pyc
+│   │       ├── archive.cpython-311.pyc
+│   │       └── home.cpython-311.pyc
 │   ├── requirements.txt
 │   └── runtime.txt
 ├── Clustering
@@ -201,12 +219,25 @@ This is the project for the Modern Data Analysis in KU Leuven. Our group is dedi
     └── intvn_preprocess.ipynb
 
 
-# Installation:
+## Installation:
+### Set up the Project?
+Clone the project repository: 
+```
+git clone [text](https://github.com/camilleecu/MDA.git)
+```
 
-Try our app? Please click the link: [https://mda-c5992f1a540f.herokuapp.com/](https://mda-c5992f1a540f.herokuapp.com/) (Chrome Recommended)<br>
-Run the app locally?<br>
-For Windows Users: Download our App folder.<br>
+### Try our app? 
+```
+Please click the link: [https://mda-c5992f1a540f.herokuapp.com/](https://mda-c5992f1a540f.herokuapp.com/) (Chrome Recommended)<br>
+```
+
+### Run the app locally?
+```
+For Windows Users: Download our App folder, then run the app.py document <br>
 For Mac OS Users/Linux: [https://github.com/lynweih/MDA_app](https://github.com/lynweih/MDA_app)
+```
+
+
 
 
 
