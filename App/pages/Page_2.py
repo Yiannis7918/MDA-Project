@@ -13,7 +13,7 @@ from geopy.distance import geodesic
 
 #########################################################################################################################################################
 
-cardiac = pd.read_csv(r"MDA\App\App Datasets\cardiac.csv",index_col=False)
+cardiac = pd.read_csv(r"App/App Datasets/cardiac.csv",index_col=False)
 
 # Your Mapbox access token
 mapbox_access_token = 'pk.eyJ1Ijoid2VuaGFuY3UiLCJhIjoiY2x3cTlrYjlnMDAybTJqczdzOWFwcWpjdyJ9.yNEGbGM7vNhqbdfdfFNTng'
