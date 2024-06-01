@@ -71,7 +71,6 @@ layout = html.Div([
     html.Br(),
     html.H2("Choose an Emergency Incident on the Map to Obtain the Nearest AED and Ambulance", style={'border': '2px solid red'}),
     html.Br(),
-    html.H3("Blue Dots: Heart Related Emergency",style={'text-align': 'left'}),
     html.Div([
             dcc.Graph(id='map', figure=fig_optim, config={'scrollZoom': True},style={'height':"800px"}),
             dcc.Store(id='pin-location')])
