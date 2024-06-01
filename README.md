@@ -200,12 +200,14 @@ This is the project for the Modern Data Analysis in KU Leuven. Our group is dedi
     ├── intvn_clean.parquet
     └── intvn_preprocess.ipynb
 
+
 # Installation:
 
-Want to use our app? Please click the link: https://mda-c5992f1a540f.herokuapp.com/ (Chrome Recommended)
-Run the app locally? 
-For Windows Users: Download our App folder
-For Mac OS Users/Linux: https://github.com/lynweih/MDA_app
+Try our app? Please click the link: [https://mda-c5992f1a540f.herokuapp.com/](https://mda-c5992f1a540f.herokuapp.com/) (Chrome Recommended)<br>
+Run the app locally?<br>
+For Windows Users: Download our App folder.<br>
+For Mac OS Users/Linux: [https://github.com/lynweih/MDA_app](https://github.com/lynweih/MDA_app)
+
 
 
 
