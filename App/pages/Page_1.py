@@ -15,8 +15,8 @@ import plotly.graph_objects as go
 import folium
 from dash.dependencies import Input, Output
 
-aed_within_provinces = gpd.read_file("MDA\App\App Datasets\AED_WITHIN_PROVINCES.geojson")
-aed_and_popul_density_within_provinces= gpd.read_file("MDA\App\App Datasets\AED_DENS_POPUL_WITHIN_PROVINCES.geojson")
+aed_within_provinces = gpd.read_file("App/App Datasets/AED_WITHIN_PROVINCES.geojson")
+aed_and_popul_density_within_provinces= gpd.read_file("App/App Datasets/AED_DENS_POPUL_WITHIN_PROVINCES.geojson")
 
 aed_within_provinces["cap_address"] = aed_within_provinces["address"].apply(lambda x: x.title())
 # aed_within_provinces["cap_address"] = aed_within_provinces["cap_address"] + str(aed_within_provinces["number"])
