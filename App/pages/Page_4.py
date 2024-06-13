@@ -42,7 +42,7 @@ aed = aed.to_crs(epsg=4326)
 aed = aed[['lat', 'lng']]
 
 # Your Mapbox access token
-mapbox_access_token = 'pk.eyJ1Ijoid2VuaGFuY3UiLCJhIjoiY2x3cTlrYjlnMDAybTJqczdzOWFwcWpjdyJ9.yNEGbGM7vNhqbdfdfFNTng'
+
 
 
 # Create initial figure
